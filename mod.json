@@ -1,0 +1,121 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+            "context": [""]
+        },
+        {
+            "tag": "savings",
+            "patterns": ["How can I start saving money?", "What are some good ways to save money?", "Any tips for saving money?"],
+            "responses": ["Starting a budget and tracking your expenses can help you save money.", "Consider setting up automatic transfers to a savings account.", "Cutting unnecessary expenses can free up funds for savings."],
+            "context": [""]
+        },
+        {
+            "tag": "investing",
+            "patterns": ["How can I start investing?", "What are some good investment options?", "Any tips for beginner investors?"],
+            "responses": ["Consider opening a brokerage account and starting with low-cost index funds.", "Educate yourself about different investment vehicles such as stocks, bonds, and mutual funds.", "Start by investing in assets that match your risk tolerance and investment goals."],
+            "context": [""]
+        },
+        {
+            "tag": "budgeting",
+            "patterns": ["How do I create a budget?", "What are some budgeting techniques?", "Any tips for managing my finances better?"],
+            "responses": ["Start by tracking your income and expenses to understand your spending habits.", "Allocate your income into categories such as fixed expenses, savings, and discretionary spending.", "Regularly review and adjust your budget to align with your financial goals."],
+            "context": [""]
+        },
+        {
+            "tag": "credit_score",
+            "patterns": ["How can I improve my credit score?", "What factors affect my credit score?", "Any tips for maintaining a good credit score?"],
+            "responses": ["Pay your bills on time and in full each month.", "Keep your credit card balances low and avoid opening multiple new accounts in a short period.", "Regularly check your credit report for errors and dispute any inaccuracies."],
+            "context": [""]
+        },
+        {
+            "tag": "retirement",
+            "patterns": ["How can I start planning for retirement?", "What are some retirement savings options?", "Any tips for retirement planning?"],
+            "responses": ["Start saving for retirement as early as possible to take advantage of compounding returns.", "Consider contributing to tax-advantaged retirement accounts such as 401(k)s or IRAs.", "Consult with a financial advisor to develop a personalized retirement plan based on your goals and risk tolerance."],
+            "context": [""]
+        },
+        {
+            "tag": "income",
+            "patterns": ["How can I increase my income?", "What are some ways to earn more money?", "Any tips for boosting my income?"],
+            "responses": ["Consider negotiating a raise with your employer.", "Look for freelance or part-time work to supplement your income.", "Explore passive income streams such as rental properties or dividend-paying investments."],
+            "context": [""]
+        },
+        {
+            "tag": "debt_management",
+            "patterns": ["How do I manage my debt?", "What strategies can I use to pay off debt?", "Any tips for debt consolidation?"],
+            "responses": ["Create a budget to allocate funds towards debt repayment.", "Consider consolidating high-interest debts into a single, lower-interest loan.", "Explore debt payoff methods such as the snowball or avalanche method."],
+            "context": [""]
+        },
+        {
+            "tag": "taxes",
+            "patterns": ["How can I minimize my taxes?", "What deductions can I claim?", "Any tips for tax planning?"],
+            "responses": ["Maximize contributions to tax-advantaged accounts such as IRAs and HSAs.", "Take advantage of tax deductions for expenses such as mortgage interest and charitable contributions.", "Consult with a tax professional to develop a tax-efficient strategy."],
+            "context": [""]
+        },
+        {
+            "tag": "insurance",
+            "patterns": ["What types of insurance do I need?", "How much life insurance should I have?", "Any tips for shopping for insurance?"],
+            "responses": ["Consider insurance coverage for health, life, auto, home, and disability.", "Calculate your insurance needs based on factors such as income, debts, and dependents.", "Shop around and compare quotes from multiple insurance providers to find the best coverage at the most competitive rates."],
+            "context": [""]
+        },
+        {
+            "tag": "financial_goals",
+            "patterns": ["How do I set financial goals?", "What are some common financial goals?", "Any tips for achieving financial goals?"],
+            "responses": ["Set specific, measurable, achievable, relevant, and time-bound (SMART) financial goals.", "Prioritize your goals and allocate resources accordingly.", "Regularly review and adjust your goals to reflect changes in your financial situation."],
+            "context": [""]
+        },
+        {
+            "tag": "budget_tracking",
+            "patterns": ["How can I track my expenses?", "What tools can help me budget?", "Any tips for tracking spending?"],
+            "responses": ["Use budgeting apps or spreadsheets to track your expenses.", "Categorize your spending and review your budget regularly to identify areas for improvement.", "Consider setting spending limits for different categories to stay within your budget."],
+            "context": [""]
+        },
+        {
+            "tag": "investment_strategies",
+            "patterns": ["What are some investment strategies?", "How can I build a diversified investment portfolio?", "Any tips for successful investing?"],
+            "responses": ["Diversify your investments across different asset classes such as stocks, bonds, and real estate.", "Consider dollar-cost averaging to invest a fixed amount regularly over time.", "Focus on long-term growth and avoid trying to time the market."],
+            "context": [""]
+        },
+        {
+            "tag": "emergency_fund",
+            "patterns": ["How much should I save for emergencies?", "What is an emergency fund?", "Any tips for building an emergency fund?"],
+            "responses": ["Save enough to cover 3-6 months of living expenses in case of unexpected financial emergencies.", "Keep your emergency fund in a liquid, easily accessible account such as a high-yield savings account.", "Automate contributions to your emergency fund to ensure consistent savings."],
+            "context": [""]
+        },
+        {
+            "tag": "retirement_planning",
+            "patterns": ["When should I start planning for retirement?", "How much should I save for retirement?", "Any tips for retirement planning?"],
+            "responses": ["Start planning for retirement as early as possible to take advantage of compound interest.", "Save at least 10-15% of your income for retirement, or more if possible.", "Consider consulting with a financial advisor to create a personalized retirement plan based on your goals and risk tolerance."],
+            "context": [""]
+        },
+        {
+            "tag": "college_savings",
+            "patterns": ["How can I save for my child's college education?", "What are some college savings options?", "Any tips for college savings?"],
+            "responses": ["Consider opening a 529 college savings plan, which offers tax advantages for education expenses.", "Start saving early and contribute regularly to maximize growth potential.", "Explore other options such as custodial accounts or education savings accounts (ESAs) for college savings."],
+            "context": [""]
+        }
+        
+        
+    ]
+}
+
